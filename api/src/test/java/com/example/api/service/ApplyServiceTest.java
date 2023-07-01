@@ -50,6 +50,7 @@ class ApplyServiceTest {
 
         countDownLatch.await();
 
+        Thread.sleep(10000);
 
         final long count = couponRepository.count();
 
